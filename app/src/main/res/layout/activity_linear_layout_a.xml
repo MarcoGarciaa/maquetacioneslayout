@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="#36AB2B" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Linear Layout A"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mi_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:src="@drawable/circulo"
+        android:scaleType="centerInside"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#36AB2B"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#36AB2B"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Boton"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Texto 1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#36AB2B"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Texto 2"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#36AB2B"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Texto 3"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#36AB2B"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

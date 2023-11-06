@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">layouts</string>
+    <string name="title_activity_linear_layout">LinearLayoutA</string>
+    <string name="title_activity_linear_layout_b">LinearLayoutB</string>
+    <string name="title_activity_table_layout_a.kt">TableLayoutA.kt</string>
+    <string name="title_activity_table_layout">TableLayoutA</string>
+    <string name="title_activity_table_layout_b">TableLayoutB</string>
+    <string name="title_activity_constraint_layout">ConstraintLayoutA</string>
+    <string name="title_activity_constrain_layout_b">ConstrainLayoutB</string>
+</resources>
